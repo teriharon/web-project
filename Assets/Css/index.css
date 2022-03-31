@@ -1,0 +1,90 @@
+.images{width:100%;;
+    height: 500px;;
+        color: #fff;
+        font-size: 24px;
+    display: inline-block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background: url(../Images/IMG_9059.JPG);
+border: solid 0px brown;
+/*Add the blur effect*/
+filter:blur(8px);
+-webkit-filter: blur(8px);}
+/* Position text in the middle of the page/image */
+.text {
+  color: white;
+  font-weight: bold;
+  border: 0px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+table, tr{border: 0px solid; 
+    width: 100%; height: 30%;
+    }
+
+  .nav-link{
+    color: white;
+  }
+
+
+  #dropdown01{
+    color:white;
+  }
+
+  #dropdown01:hover{
+    color:white;
+  }
+
+  .dropdown-menu{
+    background-color: black;}
+
+     
+    .dropdown-item{
+  color:white;}
+  
+  .edit{
+   text-align:center;width: 20%;
+   color:black;
+   font-size: x-large;
+   font-weight: bold;
+}
+.welcome{
+  width: 600px;
+  height: 500px;
+}
+
+.team{
+  width: 750px;
+  height:500px;
+  padding: 50px;
+   
+        color: #fff;
+        font-size: 24px;
+    display: inline-block;
+    background-size: contain;
+    background: url(Assets/Images/IMG_9445.JPG);
+border: solid 1px brown;}
+
+#ivy{top: 50%;
+  left: 50%;
+  font-size: 40px;
+  color: white;
+  position:absolute;
+ transform: translate(-50%,50%);
+ -ms-transform: translate(-50%,-50%);
+  align-items: center;
+background: rgba(0,0,0,0.5);
+}
+
+/*On screens that are 600px wide or less, make the columns stack on top of each other*/
+@media screen and(max-width:600px) {
+    .see{border: solid 1px red;
+    width: 100%;}
+    
+}
